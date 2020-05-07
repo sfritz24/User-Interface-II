@@ -82,4 +82,14 @@ header nav a:active {
     height: 200px;
     background-size: cover;
     margin: 0 20% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.statement {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
