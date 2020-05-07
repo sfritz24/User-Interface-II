@@ -122,29 +122,11 @@ header nav a:active {
     width: 600px;
 }
 
-#dittocat {
+#dittocat, #bedframe, #bracelet {
     display: flex;
 }
 
-#pottery {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-#bedframe {
-    display: flex;
-}
-
-#mask {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-#bracelet {
-    display: flex;
-}
-
-#desk {
+#pottery, #mask, #desk {
     display: flex;
     flex-direction: row-reverse;
 }
@@ -152,16 +134,25 @@ header nav a:active {
 #projects div section img {
     margin: 0 5% auto;
     display: flex;
+    border: 5px dashed;
+    border-color: darkturquoise darkturquoise mediumvioletred mediumvioletred;
 }
 
-#dittocat, #bedframe, #bracelet, p{
+#dittocat p, #bedframe p, #bracelet p {
     margin-right: 5%;
-    display: flex;
-    align-items: center;
+    height: fit-content;
+    border-style: inset;
+    border-color: turquoise mediumvioletred mediumvioletred turquoise;
+    border-width: 3px;
+    background-image: linear-gradient(to bottom right, hotpink, turquoise);
 }
 
-#pottery, #mask, #desk, p {
+#pottery p, #mask p, #desk p {
     margin-left: 5%;
     display: flex;
     align-items: center;
+    border-style: inset;
+    border-color: turquoise mediumvioletred mediumvioletred turquoise;
+    border-width: 3px;
+    background-image: linear-gradient(to bottom right, hotpink, turquoise);
 }
