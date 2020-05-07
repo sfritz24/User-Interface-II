@@ -26,6 +26,7 @@ vertical-align: baseline;
 
 body {
     line-height: 1.5;
+    box-sizing: border-box;
 }
 
 /* header */
@@ -111,3 +112,23 @@ header nav a:active {
 
 /* start projects */
 
+#projects img {
+    width: 300px;
+    height: 300px;
+    object-fit: scale-down;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#projects div {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
