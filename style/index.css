@@ -78,5 +78,8 @@ header nav a:active {
 /* start statement */
 
 .statement section {
-    background-image: url()
+    background: url(/pictures/backsplash.jpg) no-repeat center fixed;
+    height: 200px;
+    background-size: cover;
+    margin: 0 20% auto;
 }
