@@ -43,6 +43,8 @@ header {
 
 h1 {
     font-size: 50px;
+    color: darkturquoise;
+    text-shadow: -3px 3px 3px mediumvioletred;
 }
 
 header nav {
@@ -81,7 +83,7 @@ header nav a:active {
 
 .statement section {
     background: url(/pictures/backsplash.jpg) no-repeat center fixed;
-    height: 200px;
+    height: 400px;
     background-size: cover;
     margin: 0 20% auto;
     display: flex;
@@ -148,4 +150,26 @@ header nav a:active {
 
 /* end prjects */
 
-/*  */
+/* footer start */
+
+footer {
+    display:flex;
+    justify-content: center;
+    margin: 2% 0;
+}
+
+.footer {
+    padding: 0 2%;
+    display: flex;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
