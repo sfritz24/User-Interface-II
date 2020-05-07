@@ -111,4 +111,40 @@ header nav a:active {
 
 /* end statement */
 
-/*  */
+/* start project */
+
+#projects div {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects img {
+    width: 600px;
+}
+
+#dittocat {
+    display: flex;
+}
+
+#pottery {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#bedframe {
+    display: flex;
+}
+
+#mask {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#bracelet {
+    display: flex;
+}
+
+#desk {
+    display: flex;
+    flex-direction: row-reverse;
+}
