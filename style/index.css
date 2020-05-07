@@ -72,3 +72,11 @@ header nav a:active {
     box-shadow: 0 5px darkmagenta;
     transform: translateY(4px);
 }
+
+/* end of header */
+
+/* start statement */
+
+.statement section {
+    background-image: url()
+}
