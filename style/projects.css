@@ -148,3 +148,20 @@ header nav a:active {
     display: flex;
     flex-direction: row-reverse;
 }
+
+#projects div section img {
+    margin: 0 5% auto;
+    display: flex;
+}
+
+#dittocat, #bedframe, #bracelet, p{
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+}
+
+#pottery, #mask, #desk, p {
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+}
