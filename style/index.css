@@ -118,6 +118,8 @@ header nav a:active {
     object-fit: scale-down;
     object-fit: cover;
     overflow: hidden;
+    border: 5px dashed;
+    border-color: darkturquoise darkturquoise mediumvioletred mediumvioletred;
 }
 
 #projects {
@@ -132,3 +134,18 @@ header nav a:active {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+#projects p {
+    text-align: center;
+}
+
+#projects section{
+    border-style: inset;
+    border-color: turquoise mediumvioletred mediumvioletred turquoise;
+    border-width: 3px;
+    background-image: linear-gradient(to bottom right, hotpink, turquoise);
+}
+
+/* end prjects */
+
+/*  */
