@@ -27,3 +27,88 @@ body {
     line-height: 1.5;
 }
 
+/* header */
+
+.header {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 50px;
+    color: darkturquoise;
+    text-shadow: -3px 3px 3px mediumvioletred;
+}
+
+header nav {
+    display: flex;
+    align-self: center;
+}
+
+header nav a {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: magenta;
+    border: none;
+    color: black;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px darkmagenta;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    background-color: hotpink;
+    box-shadow: 0 5px mediumvioletred;
+    text-shadow: 0 0 5px #595959;
+}
+
+header nav a:active {
+    background-color: magenta;
+    box-shadow: 0 5px darkmagenta;
+    transform: translateY(4px);
+}
+
+/* end of header */
+
+/* start statement */
+
+.statement section {
+    background: url(/pictures/backsplash.jpg) no-repeat center fixed;
+    height: 400px;
+    background-size: cover;
+    margin: 0 20% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.statement {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.statement section h2 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Modak;
+}
+
+.statement section p {
+    font-size: 22px;
+    color: white;
+}
+
+/* end statement */
+
+/*  */
