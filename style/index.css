@@ -157,17 +157,17 @@ footer {
     margin: 2% 0;
 }
 
-.footer {
+#contact {
     padding: 0 2%;
     display: flex;
 }
 
-footer nav {
+.footer nav {
     display: flex;
     justify-content: space-around;
 }
 
-footer a {
+.footer a {
     display: flex;
     justify-content: space-between;
     padding: 0 5%;

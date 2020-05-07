@@ -124,11 +124,13 @@ header nav a:active {
 
 #dittocat, #bedframe, #bracelet {
     display: flex;
+    align-items: center;
 }
 
 #pottery, #mask, #desk {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
 }
 
 #projects div section img {
@@ -149,10 +151,69 @@ header nav a:active {
 
 #pottery p, #mask p, #desk p {
     margin-left: 5%;
-    display: flex;
-    align-items: center;
+    height: fit-content;
     border-style: inset;
     border-color: turquoise mediumvioletred mediumvioletred turquoise;
     border-width: 3px;
     background-image: linear-gradient(to bottom right, hotpink, turquoise);
+}
+
+/* end projects */
+
+/* start footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.normal {
+    display: flex;
+    align-self: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.normal a {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: magenta;
+    border: none;
+    color: black;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px darkmagenta;
+    text-decoration: none;
+}
+
+.normal a:hover {
+    background-color: hotpink;
+    box-shadow: 0 5px mediumvioletred;
+    text-shadow: 0 0 5px #595959;
+}
+
+.normal a:active {
+    background-color: magenta;
+    box-shadow: 0 5px darkmagenta;
+    transform: translateY(4px);
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social a {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+#contact {
+    padding: 0 2%;
+    display: flex;
+    justify-content: center;
+    margin: 1% 0;
 }
