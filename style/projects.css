@@ -12,8 +12,7 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,  
 time, mark, audio, video {  
 margin: 0;  
-padding: 0;   
-font-size: 100%;  
+padding: 0;     
 font: inherit;  
 vertical-align: baseline;  
 }
@@ -22,8 +21,13 @@ vertical-align: baseline;
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     line-height: 1.5;
+    font-size: 1.6rem;
 }
 
 /* header */
@@ -39,7 +43,7 @@ header {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 5rem;
     color: darkturquoise;
     text-shadow: -3px 3px 3px mediumvioletred;
 }
@@ -98,13 +102,13 @@ header nav a:active {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     -webkit-text-fill-color: white;
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: bold;
     font-family: Modak;
 }
 
 .statement section p {
-    font-size: 22px;
+    font-size: 2.2rem;
     color: white;
 }
 
